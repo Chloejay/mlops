@@ -21,4 +21,4 @@ jobs:
           cml-publish loss.png --md >> report.md
           cml-publish acc.png --md >> report.md
           
-          cml-send-comment report.md
+          cml-send-comment report.md 
