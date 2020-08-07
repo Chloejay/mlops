@@ -81,4 +81,4 @@ def plot(metric: str, ylabel: str)-> None:
     plt.close()
     
 plot("loss", "loss score")
-plot("acc", "acc score")
+plot("accuracy", "acc score")
