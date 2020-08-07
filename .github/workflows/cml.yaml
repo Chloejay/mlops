@@ -18,7 +18,7 @@ jobs:
           cat metrics.txt >> report.md
           
           echo "## Data viz" >> report.md
-          cml-publish loss.png --md >> report.md
-          cml-publish acc.png --md >> report.md
+          cml-publish train/loss.png --md >> report.md
+          cml-publish train/acc.png --md >> report.md
           
           cml-send-comment report.md
